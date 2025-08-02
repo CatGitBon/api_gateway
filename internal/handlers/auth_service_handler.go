@@ -1,8 +1,8 @@
 package handlers
 
 import (
+	authService "github.com/CatGitBon/auth_service/pkg"
 	"log"
-	authService "microservices/auth_service/pkg"
 	"net/http"
 )
 

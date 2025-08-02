@@ -1,4 +1,4 @@
-module microservices/api_gateway
+module github.com/CatGitBon/api_gateway
 
 go 1.24.4
 
@@ -6,6 +6,7 @@ require (
 	github.com/go-chi/chi/v5 v5.2.2
 	google.golang.org/grpc v1.74.2
 	google.golang.org/protobuf v1.36.6
+
 )
 
 require (
