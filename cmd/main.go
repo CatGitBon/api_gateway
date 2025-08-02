@@ -1,16 +1,15 @@
 package main
 
 import (
-	authService "github.com/CatGitBon/auth_service/pkg"
 	"log"
-
+	"microservices/api_gateway/internal/handlers"
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"google.golang.org/grpc"
 
-	"github.com/CatGitBon/api_gateway/internal/handlers"
+	authService "github.com/CatGitBon/auth_service/pkg"
 )
 
 // Конфигурация для гRPC клиентов

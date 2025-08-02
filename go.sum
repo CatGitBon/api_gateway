@@ -1,3 +1,7 @@
+github.com/CatGitBon/api_gateway v0.0.0-20250802092631-3a0a83713995 h1:uBUjlJDF4+rhmgn9ir9v2YX2Y1BZcU3tqUSCjBgs3hY=
+github.com/CatGitBon/api_gateway v0.0.0-20250802092631-3a0a83713995/go.mod h1:Y1wagtjN6CKHq1tSwRfiyRisie4JxOS7cYwrCqnliQw=
+github.com/CatGitBon/auth_service v0.0.0-20250802091756-bbf64e86605b h1:L9y+3DfOXa4nFHFUv/RvE2Zytq9v7LED7iQOofAVv3w=
+github.com/CatGitBon/auth_service v0.0.0-20250802091756-bbf64e86605b/go.mod h1:fCJJn6Jh85lvB+PWwxIbxCgcueJe8W8KVgQZmdvXrzM=
 github.com/go-chi/chi/v5 v5.2.2 h1:CMwsvRVTbXVytCk1Wd72Zy1LAsAh9GxMmSNWLHCG618=
 github.com/go-chi/chi/v5 v5.2.2/go.mod h1:L2yAIGWB3H+phAw1NxKwWM+7eUH/lU8pOMm5hHcoops=
 github.com/go-logr/logr v1.4.3 h1:CjnDlHq8ikf6E492q6eKboGOC0T8CDaOvkHCIg8idEI=
