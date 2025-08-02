@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package api_gateway;
+
+// Импортируем сервисы с которыми будет взаимодействие
+// import "auth_service.proto";
+// import "document_service.proto";
+// import "nsi_service.proto";
+// import "sp_service.proto";
+
+option go_package = "pkg/;apiGateway";
+
+// Сервис API api_gateway, определяет все операции доступные для клиента
+service APIGateway {
+    rpc Authenticate (AuthRequest) returns (AuthResponse);
+}
+
+// Сообщение запроса для аутентификации
+message AuthRequest {
+    string user_id = 1;
+    string password = 2;
+}
+
+// Ответ на запрос аутентификации
+message AuthResponse {
+    bool success = 1;
+    string message = 2;
+}
